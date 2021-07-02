@@ -14,7 +14,7 @@ const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
   tw`hocus:(scale-105 text-yellow-400)`,
 
   // Use props to conditionally style your components
-  variant === "primary" && tw`bg-red-500 text-white border-black`,
+  variant === "primary" && tw`bg-red-200 text-green-400 border-black`,
 
   // Combine regular css with tailwind classes within backticks
   variant === "secondary" && [
